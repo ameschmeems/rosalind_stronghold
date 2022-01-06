@@ -24,7 +24,4 @@ def rna_to_protein(file_path: str) -> str:
 			break
 		protein += codon_table[current_codon]
 	return protein
-
-if __name__ == "__main__":
-	print(rna_to_protein("/home/kpucylo/Downloads/rosalind_prot.txt"))
 		
