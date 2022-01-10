@@ -8,6 +8,3 @@ def mortal_rabbits(n: int, m: int) -> int:
 			tmp = tmp - living[i - m - 1]
 		living.append(tmp)
 	return living[-1]
-
-if __name__ == "__main__":
-	print(mortal_rabbits(96, 19))
