@@ -9,4 +9,3 @@ def motif(s: str, t: str) -> list:
 			if j == (len(t) - 2):
 				lst.append(i + 1)
 	return lst
-

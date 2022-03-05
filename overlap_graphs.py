@@ -1,6 +1,5 @@
 from Bio import SeqIO
 
-
 def overlap_graphs(path: str, k: int):
     with open(path) as f:
         fasta_sequences = list(SeqIO.parse(f, "fasta"))
